@@ -6,4 +6,8 @@ Use `rc-new componentName` to generate a new functional (a.k.a. stateless) compo
 
 Use `rc-new componentName c` to generate a new Class component
 
-The script generate a new react component in the same directory as you are in and the name of the component folder is your `componentName`, also it generates an `index.js` file inside the component folder.
+The script generate a new react component in the same directory as you are in and the name of the component folder is your `componentName`, also it generates `componentName.js`, `componentName.scss` and `componentName.test.js` files inside the component folder.
+
+If you want to make a the script global: 
+  Mac OS X - add the script file in to `/usr/local/bin` folder
+
